@@ -1,0 +1,125 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 399px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  text-transform: uppercase;
+  height: 400px;
+}
+
+header h1 span {
+  color: #77A466;
+}
+
+header img {
+  border-top: #77A466 solid 3px;
+  border-bottom: #77A466 solid 3px;
+}
+
+nav {
+  color: #77A466;
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  padding-top: 20px;
+  word-spacing: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/***** INTRO *****/
+
+#intro h2 {
+  color: #77A466;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#intro p {
+  font-size: 16px;
+  height: 65px;
+  padding-bottom: 10px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom {
+  border-top: #DEDBDC solid 1px;
+  border-bottom: #DEDBDC solid 1px;
+  height: 210px;
+}
+
+#bottom h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+#bottom ul {
+  color: #77A466;
+  font-size: 16px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#bottom li {
+  padding-bottom: 15px;
+}
+
+#reviews {
+  border-left: #DEDBDC solid 1px;
+  height: 210px;
+}
+
+#reviews h3, #contact h3 {
+  padding-left: 20px;
+}
+
+#reviews p, #contact p {
+  padding: 0 20px;
+}
+
+#contact {
+  border-left: #DEDBDC solid 1px;
+  height: 210px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: #77A466;
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  text-transform: lowercase;
+}
